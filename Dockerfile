@@ -1,4 +1,4 @@
-FROM python:3.6-slim-stretch AS base
+FROM python:3.6-slim-stretch
 ENV PYROOT /pyroot
 ENV PYTHONUSERBASE $PYROOT
 
